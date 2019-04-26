@@ -1,0 +1,63 @@
+html {
+  box-sizing: border-box;
+}
+
+*, ::after, ::before {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: rgb(51, 63, 72);
+}
+
+
+#canvas {
+  background-image: url('https://i.pinimg.com/originals/1a/5e/16/1a5e16166f8931079552f2bbde88d658.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 200%;
+  opacity: 0.3;
+  margin: 0 10%;
+  height: 1959px;
+  margin-top: 94px;
+}
+
+#header {
+  height: 124px;
+  width: 1910px;
+  border: solid 1px black;
+  background-color: rgb(185, 151, 91);
+  display: flex;
+  justify-content: space-around;
+}
+
+#logo {
+  font-size: 60px;
+  position: relative;
+  left: -175px;
+}
+
+#create-post{
+  font-size: 30px;
+  position: relative;
+  right: -184px;
+}
+
+#mrRogers {
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  position: absolute;
+  top: 288px;
+  left: 831px;
+  height: 644px;
+  width: 300px;
+}
+
+#mrRogers button {
+  font-size: 36px;
+  background-color: rgb(185, 151, 91);
+  border-radius: 77px;
+  margin: 7px;
+  outline: none;
+}
