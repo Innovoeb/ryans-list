@@ -1,0 +1,8 @@
+{
+  "db": {
+    "hostname": "localhost",
+    "usernae": "VegasList",
+    "password": "beovonni10",
+    "database": "VegasList"
+  }
+}
